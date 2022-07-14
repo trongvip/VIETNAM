@@ -1,0 +1,183 @@
+/* CSS Document */
+
+/*header*/
+.header{
+	width: 100%;
+}
+.logo{
+	height: 70px;
+	width: 100px;
+	background-image: url("../Img/Vietnam.png");
+	background-size: cover;
+	background-position: center;
+	margin-left: 35px; 
+}
+.logo:hover {
+	opacity: 0.8;
+}
+/*nav*/
+.nav li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	font-size: 16px;
+}
+.nav li a:hover{
+	opacity: 0.8;
+	color: red;
+	background: rgba(0,0,0,0.1);
+}
+.nav li{
+	margin: 30px 0px;
+}
+.nav ul{
+	list-style: none;
+}
+
+.nav{
+	margin-right: 30px;
+}
+/*main*/
+
+.main{
+}
+
+.box{
+	background: rgba(255,255,255,0.3);
+	padding: 100px;
+	color: white;
+}
+.banner{
+	background-image: url("../Img/1.jpg");
+	background-position: bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 10px;
+	padding: 210px 0;
+}
+.banner h1{
+	letter-spacing: 3px;
+	word-spacing: 3px;
+	font-weight: bold;
+}
+.banner p{
+	margin-top: 20px;
+}
+.box:hover{
+	background: rgba(255,0,4,0.3);
+	color: yellow;
+}
+
+
+.century{
+	text-align: center;
+	text-transform: uppercase;
+	margin: 50px 0 20px 0;
+	letter-spacing: 3px;
+	word-spacing: 3px;
+	font-weight: bold;
+}
+
+
+/*		tree*/
+
+.tree-1{
+	height: 1000px;
+	box-shadow: 0px 0px 10px 0px;
+	text-align: center;
+	border-radius: 30px 30px 0 0;
+}
+.tree-1 .branch-1 h3{
+	padding: 20px 20px 450px 10px;
+}
+.tree-1 .branch-1 ion-icon{
+	padding-top: 24px;
+	padding-left: 10px;
+}
+
+.tree-1 .branch-2 h3{
+	padding: 20px 10px 0px 20px;
+}
+.tree-1 .branch-2 ion-icon{
+	padding-top: 24px;
+	padding-right: 10px;
+}
+
+.his-1{
+	width: auto;
+	border-radius: 40px 0px 40px 40px ;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px 0px;
+	position: relative;
+}
+.his-2{
+	width: auto;
+	border-radius: 0px 40px 40px 40px ;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px 0px;
+	position: relative;
+}
+
+.box-his{
+	width: 0px;
+	height: 100%;
+	background: rgba(0,0,0,0.33);
+	position: absolute;
+	top:0;
+	left:0;
+	transition-duration: 0.5s;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	color: white;
+	text-decoration: underline;
+}
+.his-1:hover .box-his{
+	width: 100%;	
+}
+.his-2:hover .box-his{
+	width: 100%;
+}
+
+.pics{
+	width: 100%;
+
+}
+.text{
+	padding: 5px 28px;
+	text-align: justify; 
+}
+.text p{
+	margin: 5px 0px 10px;
+	
+}
+.text h2{
+	margin-bottom: 10px;
+}
+.text ion-icon{
+	padding: 5px;
+}
+
+/*footer*/
+
+.footer ul{
+	list-style: none;
+}
+.footer li a{
+	text-decoration: none;
+}
+.footer li{
+	margin: 10px;
+}
+
+.footer h3{
+	font-weight: normal;
+	font-size: 20px;
+	margin: 10px;
+}
+
+
+
+
+
